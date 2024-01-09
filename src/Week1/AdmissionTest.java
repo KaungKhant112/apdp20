@@ -7,7 +7,7 @@ public class AdmissionTest {
             System.out.println("Accept");
         }
         else System.out.println("Reject");
-
+fajaga
     }
     public static void main(String[] args)
     {
