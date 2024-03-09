@@ -17,6 +17,10 @@ public class DecaratorPatternDemo {
         decoratedRectangle.draw();
         System.out.println();
 
+        System.out.println("decorated Triangle");
+        Shape decoratedTriangle=new RedShapeDecorator(new Triangle());
+        decoratedTriangle.draw();
+
 
     }
 }
